@@ -37,3 +37,11 @@ SW_Quiz.ipynb  # All Quiz Answers.
     * fibonacci with recursive function
 * Quiz 9
     * index slicing
+    * Extra
+        * find max number
+        * reverse string
+        * swap elements
+        * print 10 natural number in reverse
+        * print sum of 10 natural numbers
+        * is this number prime number?
+        * reverse number
