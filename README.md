@@ -3,9 +3,10 @@
 
 ## Files
 ```
-Dragon_Realm.py  # 2022.03.22. class
-for_test.py  # empty python file for running & testing code
 SW_Quiz.ipynb  # All Quiz Answers.
+Dragon_Realm.py  # 2022.03.22. class
+guessing_game.py  # word guessing game - first assignment.
+for_test.py  # empty python file for running & testing code
 ```
 
 ## Quiz List
@@ -46,3 +47,10 @@ SW_Quiz.ipynb  # All Quiz Answers.
         * print sum of 10 natural numbers
         * is this number prime number?
         * reverse number
+        * num of positive and negative numbers
+        * sum of odd and even numbers
+        * print series about 1 4 9 16 ...
+        * factors?
+        * make numbers odd to even
+        * find(name)
+        * previous(lst,name)
