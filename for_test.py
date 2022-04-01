@@ -1,11 +1,7 @@
-i = 2
-is_prime = int(input())
-while True:
-    if i != is_prime:
-        if is_prime % i == 0:
-            print("False")
+name = ['Amit' , 'psu', 'Sumit', 'Pooja' , 'Mini' , 'Ronit' , 'Sumit', 'Abdul', 'Poonam', 'psu', 'apple', 'Amit']
+def previous(lst,name):
+    for j in range(len(lst)):
+        if lst[j] == name:
+            print(f"{name} is at index {j}.")
             break
-        else:
-            i += 1
-    print("True")
-    break
+previous(name,"psu")
