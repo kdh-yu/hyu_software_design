@@ -6,6 +6,7 @@
 SW_Quiz.ipynb  # All Quiz Answers.
 Dragon_Realm.py  # 2022.03.22. class
 guessing_game.py  # word guessing game - first assignment.
+hangman_game.py  # hangman - 20220406 class
 for_test.py  # empty python file for running & testing code
 ```
 
