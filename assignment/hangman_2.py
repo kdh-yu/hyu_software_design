@@ -1,5 +1,4 @@
 import random
-from re import X
 
 HANGMAN_PICS = ['''
   +---+
@@ -44,8 +43,10 @@ def get_random_word(word_list):
 def get_guess(already_guessed):
     while True:
         guess = input('Guess a letter:')
-        guess = guess.lower()  
-        if len(guess) == 1:
+        guess = guess.lower() 
+        if guess not in "abcdefghijklmnopqrstuvwxyz":
+            return "nope"
+        elif len(guess) == 1:
             if guess not in already_guessed:
                 return guess
             else:
@@ -59,6 +60,8 @@ def update_blank_word(guess):
         print("You already used")
     elif guess == "more":
         print("You should input only 1 letter.")
+    elif guess == "nope":
+        print("You should input alphabet.")
     elif guess in answer_word:
         for i in range(len(answer_word)):
             if guess == answer_word[i]:
