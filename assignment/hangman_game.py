@@ -88,4 +88,4 @@ def hangman(word):
     print("Clear")
 
 word = random.choice(word_list)
-hangman(word)
+hangman(word)  #
