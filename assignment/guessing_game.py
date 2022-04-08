@@ -1,4 +1,4 @@
-# Code by 2022094093 Dohoon Kim, Dept. of Data Science.
+# Code by 2022094093 Dohoon Kim, Dept. of Data Science. 
 import random
 
 word_list = ["hanyang university", "computer science", "data science", "python programming"]
