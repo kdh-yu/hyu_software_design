@@ -1,3 +1,7 @@
+/*
+Write a program that prints the average score of English, mathematics, and science
+where the input is the integer scores of English, mathematics, and science. 
+*/
 #include <stdio.h>
 
 int main(){

@@ -1,8 +1,8 @@
-#include <stdio.h>
 /*
 Print the multiplication table for the input integer between 1 and 9.
 Note that the products are right-justified. Use while statement. 
 */
+#include <stdio.h>
 int main(){
     int cal_number;
     int i=1;
