@@ -16,12 +16,17 @@ int main(){
     printf("End point : ");
     scanf("%d", &end_point);
 
-    while (start_point < end_point){
-        sum += start_point;
-        printf("%d + ", start_point);
-        start_point++;
+    if (start_point > end_point){
+        printf("0");
     }
-    sum += end_point;
-    printf("%d = %d", end_point, sum);
+    else {
+        while (start_point < end_point){
+            sum += start_point;
+            printf("%d + ", start_point);
+            start_point++;
+        }
+        sum += end_point;
+        printf("%d = %d", end_point, sum);
+    }
     return 0;
 }
