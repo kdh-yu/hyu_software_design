@@ -4,6 +4,16 @@ Write a program that prints a diamond shape when an odd number is given.
 
 #include <stdio.h>
 
+int star_line();
+int main(){
+    int times;
+    scanf("%d", &times);
+    int op_times = (times+1)/2;
+    star_line(op_times, 0);
+    star_line(op_times, 1);
+    return 0;
+}
+
 int star_line(int time, int operator){
     switch(operator){
         case 0:
@@ -35,14 +45,5 @@ int star_line(int time, int operator){
             }
             break;
     }
-    return 0;
-}
-
-int main(){
-    int times;
-    scanf("%d", &times);
-    int op_times = (times+1)/2;
-    star_line(op_times, 0);
-    star_line(op_times, 1);
     return 0;
 }
